@@ -4,16 +4,19 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"uglifyFileName": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx5cd55c7ecf0490b0",
-	"projectname": "test1",
+	"projectname": "districtsa",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

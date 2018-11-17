@@ -33,7 +33,7 @@ App({
     return new Promise(function (resolve, reject) {
       if (_this.data.userInfo) return reject(_this.data.userInfo);
       wechat.login().then(function () {
-        return wechat.get();
+        return '';
       }).then(function (res) {
         return res.userInfo;
       }).then(function (info) {
