@@ -1,2 +1,8 @@
-# districtsapp
-查学区微信小程序
+# Source
+
+## Auto convert
+
+- js                =>  js
+- xml               =>  wxml
+- {css,less,scss}   =>  wxss
+- json              =>  json
